@@ -4,8 +4,10 @@ SCAPE Tika RESTful web service
 This repository contains a RESTful web service based on the OpenPlanets/Tika implementation.
 
 Running:
-1) Clone the repo to your local machine.
-2) Add your local Tomcat server authentication information to your maven settings.xml file:
+
+1) Clone the OpenPlanets/Tika to your local machine and install it in your maven repo (mvn clean install)
+2) Clone the repo to your local machine.
+3) Add your local Tomcat server authentication information to your maven settings.xml file:
   <servers>
     <!-- Local Tomcat 7 installation -->
     <server>
@@ -17,10 +19,9 @@ Running:
 
 (If you change the <id>, you will also need to make the same change in the POM)
 
-3) Start Tomcat
-4) Finally, cd to the repo and run:
+4) Start Tomcat
+5) Finally, cd to the repo and run:
 mvn clean install tomcat:redeploy
-
 
 API:
 
