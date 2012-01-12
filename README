@@ -6,6 +6,6 @@ This repository contains a RESTful web service based on the OpenPlanets/Tika imp
 API:
 
 * GET Tika/rest/mime?file=<path_to_file>
-** returns a String representation of the specified file's mime-type
+ - returns a String representation of the specified file's mime-type
 * GET Tika/rest/parse?file=<path_to_file>
-** returns a String containing the metadata output from Tika
+ - returns a String containing the metadata output from Tika
